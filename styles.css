@@ -1,0 +1,29 @@
+.body {
+  margin: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.sidebar {
+  background-color: rgb(178, 178, 240);
+}
+
+.main {
+  grid-column: 2/5;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.search-bar {
+  grid-column: 1/4;
+}
+
+.greeting {
+  grid-column: 1/4;
+}
