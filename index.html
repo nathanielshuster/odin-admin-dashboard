@@ -5,62 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css" rel="stylesheet" />
   <title>Admin Dashboard</title>
 </head>
 <body>
-  <aside class="sidebar">
-    
-  </aside>
-
   <div class="container">
-    <div class="sidebar">
-      <div class="link">
-        <p><img class="icon" src="./assets/home-account.svg">Dashboard</p>
-      </div>
-
-      <div class="main menu">
-        <div class="link">
-          <p><img class="icon" src="./assets/home-account.svg">Home</p>
-        </div>
-
-        <div class="link">
-          <p><img class="icon" src="./assets/home-account.svg">Profile</p>
-        </div>
-
-        <div class="link">
-          <p><img class="icon" src="./assets/home-account.svg">Messages</p>
-        </div>
-
-        <div class="link">
-          <p><img class="icon" src="./assets/home-account.svg">History</p>
-        </div>
-
-        <div class="link">
-          <p><img class="icon" src="./assets/home-account.svg">Tasks</p>
-        </div>
-
-        <div class="link">
-          <p><img class="icon" src="./assets/home-account.svg">Communities</p>
-        </div>
-      </div>
-      
-      <div class="setting menu">
-        <div class="link">
-          <p><img class="icon" src="./assets/home-account.svg">Settings</p>
-        </div>
-
-        <div class="link">
-          <p><img class="icon" src="./assets/home-account.svg">Support</p>
-        </div>
-
-        <div class="link">
-          <p><img class="icon" src="./assets/home-account.svg">Privacy</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="header">
+    <header class="header">
       <div class="search-bar">
         <input type="search">
       </div>
@@ -74,9 +24,43 @@
         <button>Upload</button>
         <button>Share</button>
       </div>
-    </div>
+    </header>
+  
+    <aside class="sidebar">
+      <a href="#" class="nav-link spacer logo">
+        <span class="mdi mdi-view-dashboard"></span>Dashboard
+      </a>
+      <a href="#" class="nav-link">
+        <span class="mdi mdi-home-account"></span>Home
+      </a>
+      <a href="#" class="nav-link">
+        <span class="mdi mdi-card-account-details"></span>Profile
+      </a>
+      <a href="#" class="nav-link">
+        <span class="mdi mdi-message"></span>Messages
+      </a>
+      <a href="#" class="nav-link">
+        <span class="mdi mdi-history"></span>History
+      </a>
+      <a href="#" class="nav-link">
+        <span class="mdi mdi-file-multiple"></span>Tasks
+      </a>
+      <a href="#" class="nav-link spacer">
+        <span class="mdi mdi-account-group"></span>Communities
+      </a>
+      <a href="#" class="nav-link">
+        <span class="mdi mdi-cog"></span>Settings
+      </a>
+      <a href="#" class="nav-link">
+        <span class="mdi mdi-comment-question"></span>Support
+      </a>
+      <a href="#" class="nav-link">
+        <span class="mdi mdi-shield-alert"></span>Privacy
+      </a>
+    </aside>
+  </div>
 
-    <div class="content-area">
+    <!-- <div class="content-area">
       <div class="projects">
         <div class="card">
           <p class="title">Article Title</p>
@@ -121,7 +105,6 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
         </div>
       </div>
-    </div>
-  </div>
+    </div> -->
 </body>
 </html>
