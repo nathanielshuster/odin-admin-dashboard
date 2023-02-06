@@ -97,7 +97,8 @@ button {
 
 .content-area {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: auto 1fr;
+  grid-template-rows: min-content 1fr;
   gap: 30px;
 
   padding: 30px;
@@ -122,8 +123,12 @@ button {
 }
 
 .your-projects {
-  grid-column: 1/3;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.sub-content {
+  display: grid;
   gap: 30px;
 }
